@@ -15,7 +15,7 @@ import org.json.JSONObject;
 
 public class PrevisaoTempo {
 	
-	private static final String API_KEY = "5f099a78f7a82e84291793900efc137f"; //Chave alunos
+	private static final String API_KEY = ""; //Chave alunos
     private static final String API_URL_CITY = "https://api.openweathermap.org/data/2.5/forecast?q=%s&units=metric&lang=pt_br&appid=%s";
     private static final String API_URL_COORD = "https://api.openweathermap.org/data/2.5/forecast?lat=%s&lon=%s&units=metric&lang=pt_br&appid=%s";
 
@@ -104,3 +104,4 @@ public class PrevisaoTempo {
         
     }
 }
+
